@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="console.log('This is from inline js');"onclick="alert('this is inline js')">
+        click
+    </button>
+    <script>
+        console.log("hello");
+        console.log("this is internal js");
+        // alert("this is internal js");
+    </script>
+    <script src="day1.js">
+    </script>
+    <!-- task2 -->
+     <script>
+        var a=10;
+        let b=20;
+        const c=30;
+        d=40;
+        console.log(a,b,c,d);
+        //task3
+        var e=10;
+        console.log(e , typeof e);
+        var f="sravya";
+        console.log(f , typeof f);
+        var g=true;
+        console.log(g , typeof g);
+        var h=undefined;
+        console.log(h, typeof h);
+        var i=null;
+        console.log(i , typeof i);
+        var j=[20,30];
+        console.log(j,typeof j);
+        console.log(j[0]);
+        console.log(j[1]);
+        var k={name:"sravya",id:8};
+        console.log(k);
+        console.log(k["name"]);
+        console.log(k["id"]);
+        var l=100;
+        var m=200;
+        console.log(l+m);
+
+
+        
+     </script>
+</body>
+</html>
